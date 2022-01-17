@@ -1,0 +1,248 @@
+a
+{
+    text-decoration: none;
+    color:inherit;
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+.navbar-toggler
+{
+    border: solid #272727 1px;
+}
+
+.specificTourText
+{
+    font-size: 20px;
+    text-align: start;
+}
+
+nav, .nav-link, .nav-item
+{
+    font-size: 20px;
+    background-color: #fed00d;
+    color: #272727;
+}
+
+.nav-link:hover, .nav-link.active
+{
+    color: white;
+}
+
+
+
+.profile
+{
+    font-weight: bold;
+}
+
+.logo
+{
+    width: 80px;
+    height: 80px;
+}
+
+.popis_logo
+{
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+body
+{
+    position: relative;
+    margin-top: 130px;
+    background-color: #272727;
+    min-height: 100vh;
+    padding-bottom: 150px;
+}
+
+.nadpis
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.nadpis2
+{
+    font-size: 40px;
+    color: #fed00d;
+    text-align: center;
+}
+
+.text_hl_stranka
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.but_objednat
+{
+    color: #272727;
+    font-weight: bold;
+    align-items: center;
+    border: #fed00d solid 1px;
+    border-radius: 5px;
+    background-color: #fed00d;
+}
+
+.but_objednat:hover
+{
+    background-color: #272727;
+    color: #fed00d;
+}
+
+.but_objednat_zaj
+{
+    color: #fed00d;
+    font-weight: bold;
+    align-items: center;
+    border: #fed00d solid 1px;
+    border-radius: 5px;
+    background-color: #272727;
+    margin-bottom: 10px;
+}
+
+.but_objednat_zaj:hover
+{
+    background-color: #fed00d;
+    color: #272727;
+}
+
+.obrazok_hl_stranka
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.pata
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #272727;
+}
+
+.profil
+{
+    text-align: center;
+    background-color: #fed00d;
+    border-radius: 15px;
+    border: solid 10px #272727;
+    color: black;
+}
+
+.tourGuyNadpis
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.oNasText
+{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.oNasText2
+{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.nadpis_profil
+{
+    font-size: 20px;
+}
+
+.img_profil
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.img_country
+{
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+}
+
+.carousel-item
+{
+    height: 900px;
+}
+
+@media (max-width: 991px)
+{
+    .carousel-item
+    {
+        height: 400px;
+    }
+}
+
+.obj_position_top
+{
+    object-position: top;
+}
+
+.carousel-item img
+{
+    object-fit: cover;
+    height: 100%;
+}
+
+.form_input.success input
+{
+    border-width: 3px;
+    border-color: #2ecc71;
+}
+
+.form_input.success i.fa-check-circle
+{
+    color: #2ecc71;
+}
+.form_input.error input
+{
+    border-width: 3px;
+    border-color: #e74c3c;
+}
+
+.form_input.error i.fa-exclamation-circle
+{
+    color: #e74c3c;
+}
+
+.errorText
+{
+    color: white;
+    font-size: 15px;
+}
+
+.errorText2
+{
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
